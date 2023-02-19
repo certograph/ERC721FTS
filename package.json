@@ -1,0 +1,31 @@
+{
+  "name": "erc721fts",
+  "version": "1.0.0",
+  "description": "ERC721FTS is an ERC721 variant that enforces payments on mint and transfer of tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/certograph/ERC721FTS.git"
+  },
+  "keywords": [
+    "ERC721",
+    "solidity",
+    "nft"
+  ],
+  "author": "Jacek Artymiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/certograph/ERC721FTS/issues"
+  },
+  "homepage": "https://github.com/certograph/ERC721FTS#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1"
+  }
+}
